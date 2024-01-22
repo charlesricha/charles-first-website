@@ -1,0 +1,553 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Khand:wght@300&family=Salsa&display=swap');
+
+/* font-family: 'Bebas Neue', sans-serif;
+font-family: 'Khand', sans-serif;
+font-family: 'Salsa', cursive; */
+
+
+*{
+  padding: 0;
+  margin: 0;
+  /* border: 0.3px solid greenyellow; */
+}
+.header{
+background-color: white;
+padding: 0.2cm;
+display: flex;
+position: relative;
+top: 0;
+
+height: 3cm;
+
+}
+.logo{
+  display: inline-block;
+}
+.logo img{
+width: 2cm;
+}
+.logo p{
+  text-transform: uppercase;
+  font-family: 'Salsa', cursive;
+color:rgb(107, 154, 12) ;
+}
+.searchBar{
+ position:relative ;
+ top: 0.4cm;
+}
+
+.searchBar input{
+  position: relative;
+  left: 4cm;
+  height: 1cm;
+  width: 10.8cm;
+  border-radius: 3px;
+  border: 1px solid black;
+
+}
+.searchBar button{
+  position: relative;
+  top: 0cm;
+  left: 3.1cm;
+  height: 1cm;
+  background-color: transparent;
+  border: none;
+
+}
+  
+.searchBar button img{
+  width: 1cm;
+  height: 1cm;
+}
+
+.cart{
+  justify-content: space-between;
+  display: flex;
+   position: relative;
+   left: 20%;
+   top: 0.3cm;
+
+}
+.cart i{
+  padding: 0.3cm;
+  color: rgb(95, 8, 8);
+}
+
+#cartQuantity{
+  position: relative;
+  top: -0.3cm;
+  left: -0.7cm;
+}
+#contact{
+  position:  relative;
+  left: -2cm;
+  top: -1.75cm;
+  
+}
+#location{
+  position: relative;
+  top: -1.75cm;
+  left: 1cm;
+}
+
+
+.container{
+  background-color: white;
+  border-radius: 3px;
+  margin: 0cm;
+   height: 7.5cm;
+  width: 7cm;
+ justify-content: space-between;
+ box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.container p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 17px;
+}
+.container h5{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+.container img{
+  width: 7cm;
+  height: 4.5cm;
+  justify-self: center;
+  border: transparent;
+  border-radius:3px 3px 0px 0px;
+ 
+}
+.container p{
+  margin: 0.3cm;
+}
+.container p i{
+ 
+  color: gold;
+  font-size: 15px;
+ 
+}
+.content{
+  display: flex;
+  position: relative;
+  top: -1cm;
+}
+.content button {
+ margin: 0.1cm;
+}
+
+#cost{
+ /*  position: relative;
+  top: -0.9cm;
+  left: 0cm; */
+  color: rgb(73, 73, 73);
+  text-decoration: line-through;
+  width: 1.2cm;
+}
+#newCost{
+ /*  position: relative;
+  top: -1.7cm;
+  left: 1.5cm; */
+  color: rgb(101, 148, 8);
+  letter-spacing:0;
+  width: 2cm;
+}
+#itemnumber{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 4.5cm;
+  margin: 0.2cm;
+   height: 0.8cm;
+  position: relative;
+  top: -2cm;
+  left: 3cm;
+  border: transparent;
+  border-radius: 3px;
+}
+#itemList{
+  justify-content: space-between;
+  display: flex;
+ /*  justify-content: space-between; */
+  background: linear-gradient(to right,#C9D6FF,#E2E2E2);
+  height: 360vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+#totalCost{
+  position: relative;
+  top: -1cm;
+
+  border: 1px solid red;
+}
+.viewCost{
+  position: relative;
+  top: -1.2cm;
+}
+.add{
+/* position: relative;
+top: -3cm;
+left: 3.5cm; */
+height: 1cm;
+width: 1cm;
+border: 0.2px solid rgb(101, 148, 8);
+border-radius: 3px;
+background-color: transparent;
+}
+.add i{
+  color: rgb(101, 148, 8);
+
+}
+.remove{
+  background-color: transparent;
+/*   position: relative;
+  top: -3cm;
+  left: 3.5cm; */
+  border-radius: 3px;
+  border: 0.2px solid rgb(73, 8, 8) ;
+  height: 1cm;
+  width: 1cm;
+}
+.remove i{
+  color: rgb(69, 11, 8);
+}
+.wishlist{
+/*   position: relative;
+  top: -3cm;
+  left: 3.6cm; */
+  margin: 0.2cm;
+  height: 1cm;
+  width: 1cm;
+  color: rgb(180, 31, 31);
+}
+
+
+
+
+
+
+
+
+@media  (max-width : 360px) {
+
+  .header{
+    background-color: white;
+    padding: 0.2cm;
+    display: flex;
+    position: relative;
+    top: 0;
+    
+    height: 2.5cm;
+    
+    }
+    .logo{
+      display: inline-block;
+    }
+    .logo img{
+    width: 1cm;
+    }
+    .logo p{
+      text-transform: uppercase;
+      font-family: 'Salsa', cursive;
+    color:rgb(107, 154, 12) ;
+    font-size: 15px;
+    }
+    .searchBar{
+     position:relative ;
+     top: 0.4cm;
+    }
+    
+    .searchBar input{
+      position: relative;
+      left: 0cm;
+      height: 1cm;
+      width: 4cm;
+      border-radius: 3px;
+      border: 1px solid black;
+    
+    }
+    .searchBar button{
+      position: relative;
+      left: -1.5cm;
+      height: 1cm;
+      background-color: transparent;
+      border: none;
+    
+    }
+      
+    .searchBar button img{
+      width: 1cm;
+      height: 1cm;
+    }
+    
+    .cart{
+      justify-content: space-between;
+      display: flex;
+       position: relative;
+       left: 5%;
+       top: 0.3cm;
+    
+    }
+    .cart i{
+      padding: 0.3cm;
+      color: rgb(95, 8, 8);
+    }
+    
+    #cartQuantity{
+      position: relative;
+      top: -0.3cm;
+      left: -0.7cm;
+    }
+    #contact{
+      position:  relative;
+      left: -2cm;
+      top: -1.75cm;
+      
+    }
+    #location{
+      position: relative;
+      top: -1.75cm;
+      left: 1cm;
+    }
+    
+    
+    .container{
+      background-color: white;
+      border-radius: 3px;
+      margin: 0cm;
+       height: 50%;
+      width: 50%;
+     justify-content: space-between;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    }
+    .container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    }
+    .container h5{
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+    .container img{
+      width: 7cm;
+      height: 4.5cm;
+      justify-self: center;
+      border: transparent;
+      border-radius:3px 3px 0px 0px;
+     
+    }
+    .container p{
+      margin: 0.3cm;
+    }
+    .container p i{
+     
+      color: gold;
+      font-size: 15px;
+     
+    }
+    .content{
+      display: flex;
+      position: relative;
+      top: -1cm;
+    }
+    .content button {
+     margin: 0.1cm;
+    }
+    
+    #cost{
+     /*  position: relative;
+      top: -0.9cm;
+      left: 0cm; */
+      color: rgb(73, 73, 73);
+      text-decoration: line-through;
+      width: 1.2cm;
+    }
+    #newCost{
+     /*  position: relative;
+      top: -1.7cm;
+      left: 1.5cm; */
+      color: rgb(101, 148, 8);
+      letter-spacing:0;
+      width: 2cm;
+    }
+    #itemnumber{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      width: 4.5cm;
+      margin: 0.2cm;
+       height: 0.8cm;
+      position: relative;
+      top: -2cm;
+      left: 3cm;
+      border: transparent;
+      border-radius: 3px;
+    }
+    #itemList{
+      justify-content: space-between;
+      display: flex;
+     /*  justify-content: space-between; */
+      background: linear-gradient(to right,#C9D6FF,#E2E2E2);
+      height: 360vh;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #totalCost{
+      position: relative;
+      top: -1cm;
+    
+      border: 1px solid red;
+    }
+    .viewCost{
+      position: relative;
+      top: -1.2cm;
+    }
+    .add{
+    /* position: relative;
+    top: -3cm;
+    left: 3.5cm; */
+    height: 1cm;
+    width: 1cm;
+    border: 0.2px solid rgb(101, 148, 8);
+    border-radius: 3px;
+    background-color: transparent;
+    }
+    .add i{
+      color: rgb(101, 148, 8);
+    
+    }
+    .remove{
+      background-color: transparent;
+    /*   position: relative;
+      top: -3cm;
+      left: 3.5cm; */
+      border-radius: 3px;
+      border: 0.2px solid rgb(73, 8, 8) ;
+      height: 1cm;
+      width: 1cm;
+    }
+    .remove i{
+      color: rgb(69, 11, 8);
+    }
+    .wishlist{
+    /*   position: relative;
+      top: -3cm;
+      left: 3.6cm; */
+      margin: 0.2cm;
+      height: 1cm;
+      width: 1cm;
+      color: rgb(180, 31, 31);
+    }
+    
+
+
+}
+
+
+
+@media  (max-width : 840px){
+  .header{
+    background-color: white;
+    padding: 0.2cm;
+    display: flex;
+    position: relative;
+    top: 0;
+    
+    height: 2.5cm;
+    
+    }
+
+  .logo{
+    display: inline-block;
+  }
+  .logo img{
+  width: 1cm;
+  }
+  .logo p{
+    text-transform: uppercase;
+    font-family: 'Salsa', cursive;
+  color:rgb(107, 154, 12) ;
+  font-size: 15px;
+  }
+  .searchBar{
+   position:relative ;
+   top: 4%;
+   left: 10%;
+  }
+  
+  .searchBar input{
+    position: relative;
+    left: 0;
+    height: 1cm;
+    width: 7cm;
+    border-radius: 3px;
+    border: 1px solid black;
+  
+  }
+  .searchBar button{
+    position: relative;
+    left: 80%;
+    top: -50%;
+    height: 1cm;
+    background-color: transparent;
+    border: none;
+  
+  }
+    
+  .searchBar button img{
+    width: 1cm;
+    height: 1cm;
+  }
+  
+  .cart{
+    justify-content: space-between;
+    display: flex;
+     position: relative;
+     left: -30%;
+     top: 60%;
+  
+  }
+
+  .container{
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 3px;
+    margin: 0cm;
+     /* height: 100%;
+    width: 100%; */
+   justify-content: space-around;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  }
+  .container p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  }
+  .container h5{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .container img{
+    /* width: 80%;
+    height: 20%; */
+    justify-self: center;
+    border: transparent;
+    border-radius:3px 3px 0px 0px;
+   
+  }
+  .container p{
+    margin: 0.3cm;
+  }
+  .container p i{
+   
+    color: gold;
+    font-size: 15px;
+   
+  }
+  .content{
+    display: flex;
+    position: relative;
+    top: -1cm;
+  }
+  .content button {
+   margin: 0.1cm;
+  }
+  
+
+}
